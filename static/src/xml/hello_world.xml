@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Copyright 2019 GRAP - Quentin DUPONT
+Copyright 2020 Tecnativa - Alexandre Díaz
+License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
+-->
+<templates>
+    <t t-name="hello_world.helloTemplate">
+      <div>
+        <h1>Hello world</h1>     
+   
+        <div class="hello-world">
+            <t t-esc="widget.info"></t>
+        </div>
+      </div>    
+    </t>
+
+
+</templates>
